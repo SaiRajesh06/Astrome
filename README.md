@@ -36,6 +36,20 @@ This project was built to:
 
 ## 🧩 How It Works
 
+## 🚀 Getting Started
+
+### Installation
+```bash
+cd rf-link-planner
+npm install
+npm start
+```
+
+The app will open at `http://localhost:3000`
+
+### Deployment
+Deployed live at: https://astrome.vercel.app
+
 ### 🗺️ Map Interaction
 - Built with **Leaflet.js**, an open-source mapping library.
 - Users can click anywhere to add towers.
