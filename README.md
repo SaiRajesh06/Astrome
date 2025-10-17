@@ -61,37 +61,40 @@ Constants / units:
 ​	
 The app fetches terrain elevation data from the Open-Elevation API for the midpoint to provide more realistic visualization.
 The zone is drawn as a 2D red ellipse centered on the link midpoint.
+
 Data Flow
-User clicks map → tower created
-User selects 2 towers → link created if frequencies match
-User clicks link → ellipse visualized
-User edits tower frequency → invalid links auto-remove
-User removes tower or link → updates state, removes map objects
-All state is handled in React using:
-useState for towers, links, fresnel zones, selected tower
-useEffect for ellipse rendering with Leaflet overlays
+
+- User clicks map → tower created
+- User selects 2 towers → link created if frequencies match
+- User clicks link → ellipse visualized
+- User edits tower frequency → invalid links auto-remove
+- User removes tower or link → updates state, removes map objects
+- All state is handled in React using:
+- useState for towers, links, fresnel zones, selected tower
+- useEffect for ellipse rendering with Leaflet overlays
 
 Core Concepts Used
-Frontend Engineering
-React.js Functional Components
-React Hooks: useState, useEffect, useRef
-Modular Component Architecture
-Dynamic state-based rendering
-Geospatial Computation
-Leaflet.js for interactive mapping
-Geodesic distance calculation using the Haversine formula
-Fresnel Zone radius calculation (based on RF physics)
-Coordinate midpoints for geometric visualization
-Integration & Visualization
-Open-Elevation API for real-world terrain data
-Dynamic SVG/Canvas overlays (Leaflet Ellipse plugin)
-Interactive tooltips & popups
-UI/UX Design
-Modern dark-themed layout
-Clear sidebar navigation
-Hover tooltips for link details
-Smooth highlight transitions for selected links
-Responsive design for tablets and wide screens
+
+- Frontend Engineering
+- React.js Functional Components
+- React Hooks: useState, useEffect, useRef
+- Modular Component Architecture
+- Dynamic state-based rendering
+- Geospatial Computation
+- Leaflet.js for interactive mapping
+- Geodesic distance calculation using the Haversine formula
+- Fresnel Zone radius calculation (based on RF physics)
+- Coordinate midpoints for geometric visualization
+- Integration & Visualization
+- Open-Elevation API for real-world terrain data
+- Dynamic SVG/Canvas overlays (Leaflet Ellipse plugin)
+- Interactive tooltips & popups
+- UI/UX Design
+- Modern dark-themed layout
+- Clear sidebar navigation
+- Hover tooltips for link details
+- Smooth highlight transitions for selected links
+- Responsive design for tablets and wide screens
 
 ## 🧱 Tech Stack
 
