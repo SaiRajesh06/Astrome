@@ -92,3 +92,21 @@ Clear sidebar navigation
 Hover tooltips for link details
 Smooth highlight transitions for selected links
 Responsive design for tablets and wide screens
+
+## 🧱 Tech Stack
+
+- **Frontend:** React, JavaScript (ES6+)
+- **Mapping Library:** Leaflet.js
+- **Styling:** CSS3 (custom dark theme)
+- **API Integration:** Open-Elevation API
+- **Deployment:** Vercel
+- **Version Control:** Git & GitHub
+
+## 🎓 Key Learning Outcomes
+
+- Bridging **engineering physics** with **frontend logic**
+- Building **interactive map systems** using Leaflet
+- Managing **real-time UI state synchronization**
+- Designing for **usability and responsiveness**
+
+This project successfully implements a working RF link planning system with Fresnel zone visualization, combining geometric computation, physics modeling, and frontend interaction. It demonstrates how spatial data and user interactivity can merge to create meaningful engineering insights through modern web technologies.
