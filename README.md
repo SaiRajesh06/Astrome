@@ -38,13 +38,22 @@ This project was built to:
 
 ## 🚀 Getting Started
 
-### Installation
-```bash
-cd rf-link-planner
-npm install
-npm start
-```
+# Prerequisites
 
+Node.js (v14 or higher)
+npm or yarn
+
+# Clone the repository
+git clone https://github.com/SaiRajesh06/Astrome.git
+
+# Navigate to project directory
+cd rf-link-planner
+
+# Install dependencies
+npm install
+
+# Start development server
+npm start****
 The app will open at `http://localhost:3000`
 
 ### Deployment
