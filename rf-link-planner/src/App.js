@@ -14,9 +14,6 @@ import "leaflet/dist/leaflet.css";
 import "leaflet-ellipse";
 import "./App.css";
 
-//
-// Tower icons
-//
 const defaultTowerIcon = new L.DivIcon({
   html: `<div class="tower-icon"></div>`,
   iconSize: [12, 12],
@@ -183,7 +180,7 @@ export default function App() {
     <div className="container">
       {/* Sidebar */}
       <aside className="sidebar">
-        <h2>🌐 RF Link Planner</h2>
+        <h2>RF Link Planner</h2>
         <p className="hint">Click map to add towers</p>
 
         <div className="section">
@@ -328,3 +325,4 @@ export default function App() {
     </div>
   );
 }
+ 
